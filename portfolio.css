@@ -1,0 +1,96 @@
+
+section {
+background: wheat;
+padding: 25px;
+border-radius: 16px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+margin-bottom: 25px;
+}
+
+
+section h2 {
+margin-bottom: 15px;
+font-size: 1.4rem;
+color: #111827;
+border-left: 5px solid #3b82f6;
+padding-left: 10px;
+}
+
+
+.subheading {
+margin-top: 20px;
+}
+
+
+.skills-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+gap: 12px;
+margin-top: 10px;
+}
+
+
+.skill-box {
+background: #f3f4f6;
+padding: 10px;
+border-radius: 10px;
+text-align: center;
+font-weight: 500;
+}
+
+
+.two-col {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 20px;
+}
+
+
+ul {
+margin-top: 8px;
+padding-left: 18px;
+}
+
+
+.spaced {
+margin-top: 10px;
+}
+
+
+.cta {
+text-align: center;
+margin-top: 30px;
+}
+
+
+.cta a {
+text-decoration: none;
+background: #3b82f6;
+color: white;
+padding: 12px 28px;
+border-radius: 30px;
+font-weight: 600;
+display: inline-block;
+transition: 0.3s ease;
+}
+
+
+.cta a:hover {
+background: #2563eb;
+transform: translateY(-2px);
+}
+
+
+footer {
+text-align: center;
+margin-top: 40px;
+font-size: 0.9rem;
+color: #6b7280;
+}
+
+
+@media (max-width: 600px) {
+header h1 {
+font-size: 2rem;
+}
+}
