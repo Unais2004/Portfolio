@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,21 +5,20 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Body */
+
 body {
   background: #f8fafc;
   color: #1e293b;
   line-height: 1.6;
 }
 
-/* Container */
 .container {
   max-width: 1000px;
   margin: auto;
   padding: 40px 20px;
 }
 
-/* Header */
+
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -43,7 +41,7 @@ header p {
   color: #64748b;
 }
 
-/* Sections */
+
 section {
   background: #ffffff;
   padding: 30px;
@@ -57,7 +55,7 @@ section:hover {
   transform: translateY(-3px);
 }
 
-/* Section Headings */
+
 section h2 {
   margin-bottom: 15px;
   font-size: 1.4rem;
@@ -70,7 +68,7 @@ section h2 {
   margin-top: 20px;
 }
 
-/* Skills Grid */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -93,14 +91,14 @@ section h2 {
   transform: scale(1.05);
 }
 
-/* Two Column Layout */
+
 .two-col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
 
-/* Lists */
+
 ul {
   margin-top: 8px;
   padding-left: 18px;
@@ -111,12 +109,12 @@ li {
   color: #334155;
 }
 
-/* Spacing */
+
 .spaced {
   margin-top: 15px;
 }
 
-/* CTA Button */
+
 .cta {
   text-align: center;
   margin-top: 30px;
@@ -138,7 +136,7 @@ li {
   transform: translateY(-3px);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   margin-top: 40px;
@@ -146,7 +144,7 @@ footer {
   color: #64748b;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   header h1 {
     font-size: 2rem;
