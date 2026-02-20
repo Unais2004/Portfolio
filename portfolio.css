@@ -68,6 +68,12 @@ section h2 {
   margin-top: 20px;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 15px;
+}
 
 .skill-box {
   background: #e2e8f0;
